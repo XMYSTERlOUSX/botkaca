@@ -1,5 +1,3 @@
-Pyrogram>=1.0.7
-
-TgCrypto>=1.2.1
-appdirs
+https://github.com/prgofficial/pyrogram/archive/asyncio.zip
+tgcrypto
 aria2p
