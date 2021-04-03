@@ -21,7 +21,7 @@ async def func(filepath, size):
             yield f
     else:
         file_ext = os_path.splitext(filepath)[1]
-        video_units = ['.mp4','.mkv','.avi','.webm','.wmv','.mov']
+        video_units = ['.mp4','.mkv','.avi','.webm','.wmv','.mov','.m3u8']
         if file_ext in video_units:
             async for splitted_video in video(filepath, size):
                 with FileIO(splitted_video, 'rb') as f:
