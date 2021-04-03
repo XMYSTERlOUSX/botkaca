@@ -17,8 +17,8 @@ async def func(filepath):
         return False
     
     cmd = [
-        "ffprobe",
-        "-v",
+        "ffmpeg",
+        "-i",
         "quiet",
         "-print_format",
         'json',
